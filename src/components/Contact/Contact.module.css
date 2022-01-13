@@ -1,0 +1,47 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: solid 1px #008cff;
+}
+.info{
+
+}
+.text{
+    border-radius: 20px;
+    display: block;
+    outline: none;
+    border:solid 1px white;
+    background: none;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+}
+.wrapper{
+
+}
+.button{
+    display: block;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    background: none;
+    color: #008cff;
+    transition: transform .2s;
+    margin-top: 10px;
+
+}
+.button:hover{
+    transform: scale(1.2);
+}
+.red{
+    color: #ff4646;
+ }

@@ -1,0 +1,49 @@
+.container{
+    width: 370px;
+    display: block;
+    margin:  60px auto;
+    min-height: 320px;
+    border-radius: 20px;
+    background: #008cff;
+    padding: 10px;
+}
+.title{
+    margin: 0;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+.input{
+    display: block;
+    margin: 20px auto;
+    outline: none;
+    border: solid 1px #ea7305;
+    width: 70%;
+    background: white;
+    height: 40px;
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.button{
+    outline: none;
+    border: none;
+    margin: 2px auto;
+    display: block;
+    background: white;
+    width: 134px;
+    height: 53px;
+    color: #008cff;
+    font-weight: 900;
+    font-size: 20px;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color .2s;
+}
+.button:hover{
+    background: #e8e7e7;
+}
